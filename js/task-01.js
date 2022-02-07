@@ -5,9 +5,9 @@ console.log('');
 
 const titlesEl = [];
 itemsEl.forEach(elem => {
-  console.log('Категория : ', elem.getElementsByTagName('h2')[0].textContent);
+  console.log('Category: ', elem.getElementsByTagName('h2')[0].textContent);
   console.log(
-    'Количество эелментов : ',
+    'Elements: ',
     elem.getElementsByTagName('li').length
   );
   console.log('');
