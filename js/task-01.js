@@ -1,6 +1,6 @@
 const categEl = document.querySelector('#categories');
 const itemsEl = categEl.querySelectorAll('.item');
-console.log('Nunber of categories:', categEl.length);
+console.log('Number of categories:', categEl.length);
 console.log('');
 
 const titlesEl = [];
