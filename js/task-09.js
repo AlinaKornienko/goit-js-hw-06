@@ -11,4 +11,3 @@ function onBodyColorChange = (event) => {
   const newColor = getRandomHexColor();
   bodyEl.style.backgroundColor = newColor;
   spanEl.textContent = newColor;
-}
